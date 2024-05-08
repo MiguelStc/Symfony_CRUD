@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+  Recepe : {{ product.name }}
+{% endblock %}
+
+{% block body %}
+  <div>
+    <h1>{{ product.name }}</h1>
+  </div>
+  {{ form(form) }}
+{% endblock %}
